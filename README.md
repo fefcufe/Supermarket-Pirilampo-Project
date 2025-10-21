@@ -88,10 +88,11 @@ The Supermercado Pirilampo website has a Stock Management section. This section 
 
 <summary><strong>💻 Develop a function that returns the number of unique products in stock</strong></summary>
 
-### Onde desenvolver seu código
+### Where to develop your code
 
 - The file where you will implement the solution is called 1-unique-products-amount.js and is located inside the src directory;
 - Your implementation must be inside the getUniqueProductsAmount function. You must not change its name, but you can add parameters to it if necessary. You may also create additional functions within the file if you feel it will help organize your code better.
+- This location pattern is repeated for all other requirements.
 
 ### What your function should do
 
@@ -146,10 +147,6 @@ The Supermercado Pirilampo website has a Stock Management section. This section 
 <br/>
 
 ## `4 - Create a function that returns products with low stock in a specific format`
-
-
-
-
 
 - Your function should iterate through the `stockProducts` array — which contains objects representing the products in stock — to find the **name** and **quantity in stock** of each product with low stock. At the end, the function should return a new array containing a personalized message for each product, indicating its name and quantity.
 
